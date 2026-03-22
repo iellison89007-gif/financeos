@@ -1,0 +1,37 @@
+{
+  "name": "FinanceOS — Military Financial Recovery",
+  "short_name": "FinanceOS",
+  "description": "Personal financial recovery app for active duty military. Track apps, bills, credit, and your path to freedom.",
+  "start_url": "./isaac_finance_v4.html",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Cash Flow",
+      "url": "./isaac_finance_v4.html#cashflow",
+      "description": "View your cash flow projection"
+    },
+    {
+      "name": "AI Coach",
+      "url": "./isaac_finance_v4.html#coach",
+      "description": "Ask your financial coach"
+    }
+  ]
+}
